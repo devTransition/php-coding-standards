@@ -1,11 +1,10 @@
-Yii2 Core framework code style
-==============================
+PHP Coding style
+================
 
-The following code style is used for Yii 2.x core and official extensions development. If you want to pull-request code
-into the core, consider using it. We aren't forcing you to use this code style for your application. Feel free to choose
-what suits you better.
+The following code style is used for all PHP projects released by DevTransition. If you want to pull-request code,
+consider using it.
 
-You can get a config for CodeSniffer here: https://github.com/yiisoft/yii2-coding-standards
+You can get a config for CodeSniffer here: https://github.com/devtransition/php-coding-standards
 
 1. Overview
 -----------
@@ -53,7 +52,7 @@ The term "class" refers to all classes and interfaces here.
 - Classes should be named using `CamelCase`.
 - The brace should always be written on the line underneath the class name.
 - Every class must have a documentation block that conforms to the PHPDoc.
-- All code in a class must be indented with a single tab.
+- All code in a class must be indented with 4 spaces.
 - There should be only one class in a single PHP file.
 - All classes should be namespaced.
 - Class name should match file name. Class namespace should match directory structure.
@@ -341,14 +340,8 @@ Documentation
 - All class files must contain a "file-level" docblock at the top of each file
   and a "class-level" docblock immediately above each class.
 - There is no need to use `@return` if method does return nothing.
-- All virtual properties in classes that extend from `yii\base\Object`
-  are documented with an `@property` tag in the class doc block.
-  These annotations are automatically generated from the `@return` or `@param`
-  tag in the corresponding getter or setter by running `./build php-doc` in the build directory.
-  You may add an `@property` tag
-  to the getter or setter to explicitly give a documentation message for the property
-  introduced by these methods when description differs from what is stated
-  in `@return`. Here is an example:
+
+Here is an example:
 
   ```php
     <?php
