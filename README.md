@@ -1,7 +1,7 @@
-Yii 2 Web Framework Coding Standard
-===================================
+PHP Coding Standard
+===================
 
-This repository contains settings for [Yii2 coding style](https://github.com/yiisoft/yii2/wiki/Core-framework-code-style)
+This repository contains settings for [PHP coding style](https://github.com/devtransition/php-coding-standards/doc/code-style.md)
 for various tools.
 
 Getting code
@@ -9,10 +9,10 @@ Getting code
 
 You can get code style definition using one of the following methods.
 
-* Clone `yiisoft/yii2-coding-standards` repository:
+* Clone `devtransition/php-coding-standards` repository:
 
 ```
-$ git clone git://github.com/yiisoft/yii2-coding-standards.git
+$ git clone git://github.com/devtransition/php-coding-standardss.git
 ```
 
 * Install `composer.phar` distribution:
@@ -37,21 +37,17 @@ PHP_Codesniffer
 ---------------
 
 [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) coding standard, rule set
-and sniff token parsing classes for the [Yii 2 Web Framework](https://github.com/yiisoft/yii2/). Overally rules
+and sniff token parsing classes. Overally rules
 are based on PSR-2 standard with some minor exceptions and changes. Rules derived from PSR-2 standard and excluded
-in Yii2 standard were implemented (or planned to be) as sniff classes.
+were implemented as sniff classes.
 
-Rules could also be used for checking code style of an existing Yii2 applications.
-
-Everything that is merged into main [Yii2 development repository](https://github.com/yiisoft/yii2) being checked
-with these rule set as well.
 
 ### Using code style
 
 After CodeSniffer is installed you can launch it with custom code style using the following syntax:
 
 ```
-$ ./vendor/bin/phpcs --extensions=php --standard=Yii2 /home/resurtm/work/Yii2MegaApp/
+$ ./vendor/bin/phpcs --extensions=php --standard=devtransition /home/resurtm/work/YourApp/
 ```
 
 If you're using PhpStorm you can configure it to use CodeSniffer using Settings → PHP → Code Sniffer.
@@ -72,5 +68,3 @@ ADDITIONAL NOTES
 ----------------
 
 Feel free to request additional features, submit bugs and problems.
-
-Thank you for choosing Yii Framework!

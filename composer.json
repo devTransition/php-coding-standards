@@ -1,10 +1,14 @@
 {
-	"name": "yiisoft/yii2-coding-standards",
-	"description": "Yii PHP Framework Version 2 - Coding standard tools",
-	"keywords": ["yii", "framework", "codesniffer"],
-	"homepage": "http://www.yiiframework.com/",
+	"name": "devtransition/php-coding-standards",
+	"description": "Our used coding standards for PHP-Projects",
+	"keywords": ["codesniffer"],
 	"license": "BSD-3-Clause",
 	"authors": [
+        {
+            "name": "Nicolas Wild",
+            "email": "nwild79@gmail.com",
+            "role": "Founder and project lead (DevTransition)"
+        },
 		{
 			"name": "Qiang Xue",
 			"email": "qiang.xue@gmail.com",
@@ -41,14 +45,11 @@
 		}
 	],
 	"support": {
-		"issues": "https://github.com/yiisoft/yii2/issues?state=open",
-		"forum": "http://www.yiiframework.com/forum/",
-		"wiki": "http://www.yiiframework.com/wiki/",
-		"irc": "irc://irc.freenode.net/yii",
-		"source": "https://github.com/yiisoft/yii2"
+		"issues": "https://github.com/devtransition/php-coding-standards/issues?state=open",
+		"source": "https://github.com/devtransition/php-coding-standards"
 	},
 	"require": {
-		"php": ">=5.4.0",
+		"php": ">=5.5.0",
 		"squizlabs/php_codesniffer": "*"
 	}
 }
