@@ -1,7 +1,7 @@
 PHP Coding Standard
 ===================
 
-This repository contains settings for [PHP coding style](https://github.com/devtransition/php-coding-standards/doc/code-style.md)
+This repository contains settings for [PHP coding style](https://github.com/devTransition/php-coding-standards/blob/master/doc/code-style.md)
 for various tools.
 
 Getting code
